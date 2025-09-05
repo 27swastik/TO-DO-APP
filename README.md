@@ -1,12 +1,50 @@
-# React + Vite
+#  React To-Do List App  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple yet powerful **To-Do List application** built with React.  
+This app allows users to **add, edit, delete, mark complete, search, filter, and clear tasks** with data persistence using **localStorage**.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features :
+-  Add tasks easily with an input field  
+-  Mark tasks complete/incomplete by clicking on them  
+-  Delete tasks individually  
+-  Edit tasks without removing them  
+-  Clear all tasks in one click  
+-  Task counter → shows how many tasks are left  
+-  Search tasks with live filtering  
+-  Filter tasks → All / Active / Completed  
+-  Persistent storage using localStorage (tasks remain after refresh)  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Demo Screenshot  
+![App Screenshot](./screenshot.png) 
+
+---
+
+##  Tech Stack
+- **Frontend:** React (Vite or Create React App)  
+- **Styling:** CSS  
+- **State Management:** React Hooks (`useState`, `useEffect`)  
+- **Storage:** Browser LocalStorage  
+
+---
+
+##  Learnings
+This project helped in understanding:
+
+- Controlled inputs with **useState**  
+- Updating arrays immutably (`map`, `filter`, spread `...`)  
+- Using **useEffect** for side effects (sync with localStorage)  
+- Conditional rendering in React  
+- Organizing CSS for components  
+
+---
+
+##  Future Improvements
+-  Dark Mode toggle  
+-  Task priority levels (High/Medium/Low with colors)  
+-  Backend integration with a database (MongoDB / Firebase)  
+-  Responsive UI for mobile devices  
+
